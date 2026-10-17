@@ -1,0 +1,35 @@
+export enum SkillLevel {
+  BEGINNER = 'BEGINNER',
+  INTERMEDIATE = 'INTERMEDIATE',
+  ADVANCED = 'ADVANCED',
+}
+
+export enum UserSkillKind {
+  TEACH = 'TEACH',
+  LEARN = 'LEARN',
+}
+
+export enum CodePurpose {
+  VERIFY_EMAIL = 'VERIFY_EMAIL',
+  RESET_PASSWORD = 'RESET_PASSWORD',
+}
+
+export enum MatchStatus {
+  SUGGESTED = 'SUGGESTED',
+  ACCEPTED = 'ACCEPTED',
+  DECLINED = 'DECLINED',
+}
+
+export enum SessionStatus {
+  PENDING = 'PENDING',
+  CONFIRMED = 'CONFIRMED',
+  COMPLETED = 'COMPLETED',
+  CANCELLED = 'CANCELLED',
+}
+
+export enum CreditReason {
+  SESSION_TAUGHT = 'SESSION_TAUGHT',
+  SESSION_LEARNED = 'SESSION_LEARNED',
+  ADJUSTMENT = 'ADJUSTMENT',
+  SIGNUP_BONUS = 'SIGNUP_BONUS',
+}

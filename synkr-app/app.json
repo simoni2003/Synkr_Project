@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Synkr",
+    "slug": "synkr",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "synkr",
+    "ios": { "supportsTablet": false },
+    "android": { "package": "com.synkr.app" }
+  }
+}

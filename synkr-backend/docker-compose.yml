@@ -1,0 +1,16 @@
+# Opcional: PostgreSQL pronto a usar (se ja tens um PostgreSQL local, ignora este ficheiro).
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: synkr
+      POSTGRES_PASSWORD: synkr
+      POSTGRES_DB: synkr
+    ports:
+      - '5432:5432'
+    volumes:
+      - synkr_pgdata:/var/lib/postgresql/data
+
+volumes:
+  synkr_pgdata:
